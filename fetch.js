@@ -24,8 +24,9 @@ class UberflipSource {
     return JSON.parse(data)
   }
 
-  async getStreamItems(access_token) {
-    const url = `${this.baseURL}/streams/5722346/items`;
+  async getStreamItems(access_token, id) {
+    const url = `${this.baseURL}/streams/${id}/items`;
+    console.log('getStreamItems id', id)
     const data = await request.get(url, {
       headers: { Authorization: `Bearer ${access_token}` }
     });

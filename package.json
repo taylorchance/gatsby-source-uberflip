@@ -1,24 +1,52 @@
 {
-  "name": "gatsby-source-uberflip",
-  "version": "1.0.2",
-  "description": "gatsbyjs source plugin for Uberflips API",
-  "main": "index.js",
-  "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  "_from": "gatsby-source-uberflip",
+  "_id": "gatsby-source-uberflip@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ebnMrTtLCVsdj0EoZ66XG4sb1SW3yMhWxcsIrP00fb04Ll8z+7M5e3a8ZiKvvMdE9u0JT55+GyOw0N/vegXW3Q==",
+  "_location": "/gatsby-source-uberflip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-source-uberflip",
+    "name": "gatsby-source-uberflip",
+    "escapedName": "gatsby-source-uberflip",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "author": "Taylor Chance",
-  "license": "ISC",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-source-uberflip/-/gatsby-source-uberflip-1.0.2.tgz",
+  "_shasum": "64a152760f00cd4f60e1ca98cb18a3111781c151",
+  "_spec": "gatsby-source-uberflip",
+  "_where": "/Users/tchance/Security Compass",
+  "author": {
+    "name": "Taylor Chance"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5"
   },
+  "deprecated": false,
+  "description": "gatsbyjs source plugin for Uberflips API",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "uberflip"
   ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "gatsby-source-uberflip",
   "respository": {
     "type": "git",
     "url": "taylorchance/gatsby-source-uberflip"
-  }
+  },
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "version": "1.0.3"
 }
