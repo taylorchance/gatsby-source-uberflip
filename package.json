@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-source-uberflip",
+  "version": "1.0.2",
+  "description": "gatsbyjs source plugin for Uberflips API",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "Taylor Chance",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "uberflip"
+  ],
+  "respository": {
+    "type": "git",
+    "url": "taylorchance/gatsby-source-uberflip"
+  }
+}
